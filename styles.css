@@ -1,0 +1,208 @@
+body {
+    background-image: url("images/backgroundimage.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    font-color: white;
+}
+header {
+    margin: 30px;
+    color: white;
+}
+div {
+    margin-left: 20px;
+    border-bottom-style: wave;
+    border-width: thick;
+    border-bottom-color: lightblue;
+}
+
+h1 {
+    font-family: 'Geostar', cursive;
+    font-size: 35px;
+    color: white;
+
+}
+h2 {
+    font-family: 'Geostar Fill', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Codystar', cursive;
+    font-size: 35px;
+    color: white;
+}
+h4 {
+    font-family: 'Coustard', serif;
+    font-size: 35px;
+    color: white;
+}
+h5 {
+    font-family: 'Coustard', serif;
+    font-size: 35px;
+    color: white;
+}
+
+
+p {
+    text-indent: 50px;
+    color: white;
+}
+
+.favicons ul li {
+    display: inline-block;
+    margin-center: 15px;
+}
+
+.palette img {
+    padding-right: 12px;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+
+
+.copy {
+    margin-right: 20px;
+    color: white;
+}
+
+input[type=text]{
+    width: 400px;
+    color: black;
+    font-family: Coustard;
+}
+input[value=Expiration] {
+    width: 270px;
+}
+input[value=CVV] {
+    width: 100px;
+}
+
+input[type=submit] {
+    font-family: Coustard;
+    font-weight: lighter;
+    color: lightsteelblue;
+    background-color: mediumpurple;
+    border: 1px solid;
+    padding-top: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: purple;
+    color: lightsteelblue;
+
+}
+
+.form h4 {
+    margin-left: 130px;
+}
+
+input {
+    margin: 10px;
+    height: 25px;
+}
+span {
+    margin-left: 322px;
+}
+
+.form button {
+    width: 150px;
+    background-color: mediumpurple;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+buttons {
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
+
+.topnav {
+    width: 30%;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: mediumpurple;
+    position: relative;
+    border: dotted;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.topnav .logo:hover {
+    text-decoration: none;
+    color: mediumpurple;
+}
+.topnav #myLinks {
+    display: none;
+    border: none;
+}
+
+.topnav a {
+    font-family: Geostar;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+}
+
+.topnav a:hover {
+    color: purple;
+}
+
+.topnav a.icon {
+    background: mediumpurple;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+}
+
+.fa {
+
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+    color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: #55ACEE;
+}
+/* Youtube */
+.fa-youtube {
+    color: red;
+}
+/* Instagram */
+.fa-instagram {
+    color: lightsalmon;
+}

@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zodie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Geostar+Fill" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Codystar" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coustard" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Geostar" rel="stylesheet">
+</head>
+<body>
+<header>
+   <h1>Zodie</h1>
+</header>
+
+<div class="favicons">
+    <h5>Logos</h5>
+    <ul>
+        <li><img src="images/logo1.3.png" alt="logo" width="100px"><br></li>
+        <li><img src="images/logo1.2.png" alt="favicon" width="100px"> </li>
+        <li><img src="images/logo1.1.png" alt="favicon" width="100px"> </li>
+        <li><img src="images/logo.png" alt="favicon" width="100px"> </li>
+    </ul>
+</div>
+
+
+<div class="palette">
+    <h5>Color Palette</h5>
+
+    <img src="images/palette.jpg" alt="purple">
+
+</div>
+
+<div class="fonts">
+    <h5>Fonts</h5>
+    <h1 class="Geostar">Geostar</h1>
+    <h2 class="Geostar Fill">Geostar Fill</h2>
+    <h3 class="Codystar">Codystar</h3>
+    <h4 class="Coustard">Coustard</h4>
+</div>
+
+
+<div class="headings">
+    <h5>Headings</h5>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+</div>
+
+
+<div class="ul">
+    <h5>Pages</h5>
+    <ul class="bootstrap-overrides">
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Sign Up</a></li>
+        <li><a href="#">Your Horoscope</a></li>
+        <li><a href="#">Your Profile</a></li>
+        <li><a href="#">Inbox</a></li>
+        <li><a href="#">Help/Contact Us</a></li>
+
+    </ul>
+</div>
+
+<div class="form">
+    <h4>Monthly Subscription</h4>
+    <form action="/action_page.php">
+        <p>Sign Up And Get The First Month Free!</p>
+
+        <input type="text" value="Card type">
+        <br>
+        <input type="text" value="Card number">
+        <br>
+        <input type="text" value="Name on card">
+        <br>
+        <input type="text" value="Expiration"> <input type="text" value="CVV"><br>
+        <span><input type="submit" value="Pay"></span>
+    </form>
+
+</div>
+<div class="buttons">
+    <h5>Buttons</h5>
+    <button class="button"><a href="#"><img src="images/button1.png" width="100px"></a></button>
+    <button class="button"><a href="#"><img src="images/button2.png" width="100px"></a></button><br>
+
+</div>
+
+<div class="nav">
+    <h5>Hamburger Nav</h5>
+    <div class="topnav">
+        <a class="logo">Zodie</a>
+        <div id="myLinks">
+            <a href="#" class="active">Login/Log-Out</a>
+            <a href="#">Sign Up</a>
+            <a href="#">Yur Horoscope</a>
+            <a href="#">Profile</a>
+            <a href="#">Inbox</a>
+            <a href="#">contact us</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div></div>
+
+<div class="social">
+    <h5>Social Media Icons</h5>
+    <a href="https://facebook.com" class="fa fa-facebook"></a>
+    <a href="https://twitter.com" class="fa fa-twitter"></a>
+    <a href="https://instagram.com"  class="fa fa-instagram"></a>
+        <a href="https://youtube.com" class="fa fa-youtube"></a>
+</div>
+<button type="home" onclick="window.location.href='index.html'" class="btn btn-light">Home</button>
+<p>Elena Born 2018</p>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+</script>
