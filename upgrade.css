@@ -1,0 +1,231 @@
+body {
+    background-image: url("images/zodiac.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    font-color: white;
+}
+
+h1 {
+    font-family: 'Geostar', cursive;
+    font-size: 35px;
+    color: white;
+
+}
+h2 {
+    font-family: 'Geostar Fill', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Codystar', cursive;
+    font-size: 35px;
+    color: white;
+}
+h4 {
+    font-family: 'Coustard', serif;
+    font-size: 35px;
+    color: white;
+}
+h5 {
+    font-family: 'Coustard', serif;
+    font-size: 35px;
+    color: white;
+}
+
+
+p {
+    text-indent: 50px;
+    color: white;
+}
+p1
+{
+    color: white;
+}
+.favicons ul li {
+    display: inline-block;
+    margin-center: 15px;
+}
+
+.palette img {
+    padding-right: 12px;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+
+
+.copy {
+    margin-right: 20px;
+    color: white;
+}
+
+.fa {
+
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+    color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: #55ACEE;
+}
+/* Youtube */
+.fa-youtube {
+    color: red;
+}
+/* Instagram */
+.fa-instagram {
+    color: lightsalmon;
+}
+.container {
+    max-width: 960px;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+    color: white;
+    font-family: 'coustard', sans-serif;
+    font-size: 20px;
+    opacity: .5;
+    position: inherit;
+
+}
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer{
+    color: white;
+    font-size: 90%;
+    font-family: 'Coustard', sans-serif;
+}
+
+
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+    opacity:.6;
+    border-radius: 80px;
+    border: 4px dotted white;
+}
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        -ms-flex: 1;
+        flex: 1;
+        opacity:.7;
+        border-radius: 80px;
+        border: 4px dotted white;
+    }
+}
+
+.overflow-hidden { overflow: hidden; }
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.form {
+  background-color: cornflowerblue;
+    font-family: 'Coustard', serif, white;
+    padding: 5px 20px 15px 20px;
+    border: 4px dotted white;
+    border-radius: 25px;
+    opacity:5;
+}
+
+input[type=text] {
+    font-family: 'Coustard', serif;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}

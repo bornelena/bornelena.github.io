@@ -1,0 +1,205 @@
+body {
+    background-image: url("images/zodielogin.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    font-color: white;
+}
+
+h1 {
+    font-family: 'Geostar', cursive;
+    font-size: 35px;
+    color: white;
+
+}
+h2 {
+    font-family: 'Geostar Fill', cursive;
+    font-size: 35px;
+    color: white;
+}
+
+h3 {
+    font-family: 'Codystar', cursive;
+    font-size: 35px;
+    color: white;
+}
+h4 {
+    font-family: 'Coustard', serif;
+    font-size: 35px;
+    color: white;
+}
+h5 {
+    font-family: 'Coustard', serif;
+    font-size: 35px;
+    color: white;
+}
+
+
+p {
+    font-family: 'Coustard', serif;
+    text-indent: 50px;
+    color: white;
+}
+p1
+{
+    color: white;
+}
+.favicons ul li {
+    display: inline-block;
+    margin-center: 15px;
+}
+
+.palette img {
+    padding-right: 12px;
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+
+
+.copy {
+    margin-right: 20px;
+    color: white;
+}
+
+.fa {
+
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+    color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: #55ACEE;
+}
+/* Youtube */
+.fa-youtube {
+    color: red;
+}
+/* Instagram */
+.fa-instagram {
+    color: lightsalmon;
+}
+.container {
+    max-width: 960px;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+    color: white;
+    font-family: 'coustard', sans-serif;
+    font-size: 20px;
+    opacity: .5;
+    position: inherit;
+
+}
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+div.transbox {
+    margin: 2%;
+    font-weight: 100;
+    font-family: Codystar;
+    font-color: white;
+    font-size: 35px;
+    margin: 30px;
+    background-color: black;
+    border: 3px dotted white;
+    border-radius: 25px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 2%;
+    font-weight: 900;
+    font-family: Codystar;
+    font-color: white;
+    font-size: 35px;
+}
+.footer{
+    color: white;
+    font-size: 90%;
+    font-family: 'Coustard', sans-serif;
+}
+
+
+.flex-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+    opacity:.6;
+    border-radius: 80px;
+    border: 4px dotted white;
+}
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        -ms-flex: 1;
+        flex: 1;
+        opacity:.8;
+        border-radius: 80px;
+        border: 4px dotted white;
+        background: -webkit-linear-gradient(top, teal, cadetblue, darkslateblue, cornflowerblue);
+        background: -o-linear-gradient(top, teal, cornflowerblue, lightblue, white);
+        background: -moz-linear-gradient(top, teal, powderblue, lightblue, cadetblue);
+        background: linear-gradient(top, teal, cornflowerblue, lightblue, cadetblue);
+    }
+}
+
+.overflow-hidden { overflow: hidden; }
+.card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+img{
+float: left;
+    border-radius: 50%;
+}
+button {
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: darkslateblue;
+    text-align: center;
+    cursor: pointer;
+    width: 70%;
+    border-radius: 20px;
+    font-size: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}

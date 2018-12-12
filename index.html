@@ -14,14 +14,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="homestyles.css">
 
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>Zodie</title>
 </head>
 <body>
+
+<nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2 d-none d-md-inline-block" href="getstarted.html">Sign Up</a>
+        <a class="py-2 d-none d-md-inline-block" href="profile.html">Profile</a>
+    </div>
+</nav>
+
+
+
 <div class="container-fluid big-banner full-width">
     <div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <img src="images/logo.png" alt="Home Logo" class="home-logo mt-4 mb-4">
+                <img src="images/logowhite.png" alt="Home Logo" class="home-logo mt-4 mb-4">
             </div>
         </div>
 
@@ -63,7 +74,7 @@
                     <div class="card-body">
                         <h3 class="card-title header-txt">Testimonials</h3>
                         <p class="card-text">See what real people like you have said about their experience with Zodie</p>
-                        <button type="button" class="btn btn-light">More...</button>
+                        <button type="button" onclick="window.location.href='testimonials.html'"class="btn btn-light">More...</button>
                     </div>
                 </div>
             </div>
@@ -78,6 +89,8 @@
             </div>
         </div>
     </div>
+
+
     <div class="container-fluid header pb-2">
         <div class="row footer">
 
@@ -89,12 +102,13 @@
             </div>
         </div>
     </div>
-    <button type="home" onclick="window.location.href='index.html'" class="btn btn-light">Home</button>
-    <p>Elena Born 2018</p>
-
 </div>
-
-<p>Elena Born 2018 web problems</p>
+<footer class="footer">
+    <div class="container">
+        <a href="index.html"><img src="images/logowhite.png" title="logo" width="50" height="50" /></a>
+        <span class="text-muted">&copy; Elena Born 2018 WEBI 2023</span>
+    </div>
+</footer>
 
 <!-- Optional JavaScript -->
 

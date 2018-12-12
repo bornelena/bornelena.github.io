@@ -1,202 +1,37 @@
-
-html {
-    background-color: black;
-}
-
 body {
-    font-family: 'Coustard', sans-serif;
-}
-
-.header {
-    background-color: rgba(0, 0, 0, .5);
-    color: mediumpurple;
-}
-
-.header-txt, h3 {
-    font-family: 'Codystar', sans-serif;
-}
-
-.home-logo {
-    max-width: 200px;
-}
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
-
-.btn {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-}
-
-.big-banner {
-    background-image: url("images/skyscene.png");
+    background-image: url("images/hug.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: black;
+    font-color: lightblue;
 }
 
-.full-width {
-    padding-left: 0;
-    padding-right: 0;
-}
-* {box-sizing: border-box}
+h1 {
+    font-family: 'Geostar', cursive;
+    font-size: 35px;
+    color: lightskyblue;
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
+}
+.favicons ul li {
     display: inline-block;
-    border: none;
-    background: #f1f1f1;
-    font-family: 'Geostar Fill', cursive;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-    background-color: mediumpurple;
-    color: white;
-    border-radius: 25px;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-button:hover {
-    opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: teal;
-    border-radius: 25px;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-    float: left;
-    width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-    padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-        width: 100%;
-    }
-}
-/*form styles*/
-#msform {
-    width: 400px;
-    margin: auto;
-    padding-top: 50px;
-    text-align: center;
-    position: relative;
-}
-#msform fieldset {
-    background: teal;
-    border: 0 none;
-    border-radius: 25px;
-    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
-    padding: 20px 30px;
-    box-sizing: border-box;
-    width: 80%;
-    margin: 0 10%;
-
-    /*stacking fieldsets above each other*/
-    position: relative;
-}
-/*Hide all except first fieldset*/
-#msform fieldset:not(:first-of-type) {
-    display: none;
-}
-/*inputs*/
-#msform input, #msform textarea {
-    padding: 15px;
-    border: 1px solid mediumpurple;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    width: 100%;
-    box-sizing: border-box;
-    font-family: 'coustard', sans-serif;
-    color: mediumpurple;
-    font-size: 13px;
-}
-/*headings*/
-.fs-title {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: #2C3E50;
-    margin-bottom: 10px;
-}
-.fs-subtitle {
-    font-weight: normal;
-    font-size: 13px;
-    color: mediumaquamarine;
-    margin-bottom: 20px;
+    margin-center: 15px;
 }
 
 
-.bg-color {
-    background-color: black;
-}
-
-.footer {
-    background-color: black;
-}
-
-/* Style all font awesome icons */
 .fa {
-    padding: 20px;
+
+    padding: 30px;
     font-size: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.7;
-
-    text-decoration: none;
 }
-
-/* Set a specific color for each brand */
-
 /* Facebook */
 .fa-facebook {
     color: #3B5998;
@@ -214,16 +49,493 @@ button:hover {
 .fa-instagram {
     color: lightsalmon;
 }
-.footer-links {
+.container {
+    max-width: 960px;
+}
+
+.site-header {
+    background-color: rgba(0, 0, 0, .85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
     color: white;
-    font-size: 75%;
+    font-family: 'coustard', sans-serif;
+    font-size: 20px;
+    opacity: .5;
+    position: inherit;
+
+}
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer{
+    color: white;
+    font-size: 90%;
     font-family: 'Coustard', sans-serif;
 }
 
-.footer-links:hover {
-    opacity: 0.7;
-    text-decoration: none;
 
-    font-size: 50px;
+/*---------------------------------------------*/
+a {
+    font-family: codystar;
+    font-size: 14px;
+    line-height: 1.7;
+    color: white;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*---------------------------------------------*/
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+}
+
+p {
+    font-family: 'Codystar', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    color: white;
+    margin: 0px;
+}
+
+ul, li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+
+/*---------------------------------------------*/
+input {
+    outline: none;
+    border: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+textarea:focus, input:focus {
+    border-color: transparent !important;
+}
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
+
+input::-webkit-input-placeholder {color: #cccccc;}
+input:-moz-placeholder {color: #cccccc;}
+input::-moz-placeholder {color: #cccccc;}
+input:-ms-input-placeholder {color: #cccccc;}
+
+textarea::-webkit-input-placeholder {color: #cccccc;}
+textarea:-moz-placeholder {color: #cccccc;}
+textarea::-moz-placeholder {color: #cccccc;}
+textarea:-ms-input-placeholder {color: #cccccc;}
+
+/*---------------------------------------------*/
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+iframe {
+    border: none !important;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+.txt1 {
+    font-family: Coustard;
+    font-size: 15px;
+    color: white;
+    line-height: 1.4;
+}
+
+.txt2 {
+    font-family: Coustard;
+    font-size: 15px;
+    color: white;
+    line-height: 1.4;
+}
+
+.txt3 {
+    font-family: Geostar;
+    font-size: 16px;
+    color: white;
+    line-height: 1.4;
+}
+
+.hov1:hover {
+    color: #c87ef0;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-login100 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+
+.wrap-login100 {
+    width: 520px;
+    min-height: 100vh;
+    background: midnightblue;
+    opacity: .6;
+    border-radius: 25px;
+    border: 4px dotted lightskyblue;
+    position: relative;
+    padding: 15px;
+}
+
+[ Form ]
+
+.login100-form {
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.login100-form-title {
+    display: block;
+    width: 100%;
     font-family: 'coustard', sans-serif;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: left;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #dbdbdb;
+    margin-bottom: 45px;
+}
+
+.label-input100 {
+    font-family: 'coustard', sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 1.2;
+    padding-left: 2px;
+}
+
+.input100 {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    font-family: 'coustard', sans-serifr;
+    font-size: 22px;
+    color: white;
+    line-height: 1.2;
+    padding: 0 2px;
+}
+
+.focus-input100 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.focus-input100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+    background: teal;
+    background: -webkit-linear-gradient(45deg, teal, cornflowerblue);
+    background: -o-linear-gradient(45deg,teal, cornflowerblue);
+    background: -moz-linear-gradient(45deg, teal, cornflowerblue);
+    background: linear-gradient(45deg, teal, cornflowerblue);
+}
+
+
+.input100:focus + .focus-input100::before {
+    width: 100%;
+}
+
+.has-val.input100 + .focus-input100::before {
+    width: 100%;
+}
+
+/*==================================================================
+[ Restyle Checkbox ]*/
+
+.input-checkbox100 {
+    display: none;
+}
+
+.label-checkbox100 {
+    margin: 0;
+
+    display: block;
+    position: relative;
+    padding-left: 26px;
+    cursor: pointer;
+}
+
+.label-checkbox100::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-size: 13px;
+    color: transparent;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    background: #e6e6e6;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.input-checkbox100:checked + .label-checkbox100::before {
+    color: cadetblue;
+}
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+    width: 100%;
+    height: 90%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap-login100-form-btn {
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.login100-form-bgbtn {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 300%;
+    background: white;
+    background: -webkit-linear-gradient(top, teal, cadetblue, darkslateblue, cornflowerblue);
+    background: -o-linear-gradient(top, teal, cornflowerblue, lightblue, white);
+    background: -moz-linear-gradient(top, teal, powderblue, lightblue, cadetblue);
+    background: linear-gradient(top, teal, cornflowerblue, lightblue, cadetblue);
+    bottom: -100%;
+    left: 0;
+border: 2px dotted lightskyblue;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 244px;
+    height: 50px;
+
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: white;
+    line-height: 1.2;
+}
+
+.wrap-login100-form-btn:hover .login100-form-bgbtn {
+    bottom: 0;
+}
+
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+    position: relative;
+}
+
+.alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 30px 4px 10px;
+    bottom: calc((100% - 25px) / 2);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
+    right: 2px;
+    pointer-events: none;
+
+    font-family: Poppins-Medium;
+    color: #c80000;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+
+    visibility: hidden;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+.alert-validate::after {
+    content: "\f06a";
+    font-family: FontAwesome;
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 18px;
+    bottom: calc((100% - 25px) / 2);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
+    right: 8px;
+}
+
+.alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .alert-validate::before {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.true-validate::after {
+    content: "\f26b";
+    font-family: Material-Design-Iconic-Font;
+    font-size: 22px;
+    color: #00ad5f;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: calc((100% - 25px) / 2);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
+    right: 5px;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+    .wrap-login100 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
